@@ -1,6 +1,6 @@
 ### Train Exercise Instructions ###
 
-1. Navigate to the folder "train_exercise" in your command line.
+1. Navigate to the folder "train_exercise" in the command line.
 
 2. Type php -a and press return to open up the interactice shell.
 
