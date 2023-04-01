@@ -1,0 +1,40 @@
+### Train Exercise Instructions ###
+
+1. Navigate to the folder "train_exercise" in your command line.
+
+2. Type php -a and press return to open up the interactice shell.
+
+3. Type include_once "train_exercise.php"; and press return.
+
+4. To create a new Train use the CLASS Train.
+   a. Create a new Train() with a variable.
+       example: $Train = new Train();
+
+5. To create a new Train Car use the CLASS TrainCar.
+   a. Create a new TrainCar() with a variable.
+       example: $car1 = new TrainCar();
+   b. Default TrainCar is Regular, add a parameter for Cargo, Passenger or Engine when creating a new TrainCar.
+       example: $car2 = new TrainCar('Engine');
+
+6. Add a TrainCar to the front or back of a Train by using the Train methods addFront(x) or addBack(x).
+   a. example: $Train -> addFront($car1);
+   b. example: $Train -> addBack($car2); 
+
+7. Remove a TrainCar from the front or back of a Train by using the Train methods removeFront() or removeBack().
+   a. example: $Train -> removeFront();
+   b. example: $Train -> removeBack(); 
+
+8. Set the weight of a TrainCar by using the mentods setWeight().
+   example: $car1 -> setWeight(500);
+
+9. Get the weight of a TrainCar by using the mentods getWeight().
+   example: $car2 -> getWeight();
+
+10. Get the total weight of the Train by using the method totalWeight().
+   example: $Train -> totalWeight();
+
+11. Find out how many TrainCars() are in the Train.
+   examle: $Train -> totalCars();
+
+12. Show the series of TrainCars in the Train by using the method showTrain().
+   example: $Train -> showTrain();
