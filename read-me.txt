@@ -24,16 +24,16 @@
    a. example: $Train -> removeFront();
    b. example: $Train -> removeBack(); 
 
-8. Set the weight of a TrainCar by using the mentods setWeight().
+8. Set the weight of a TrainCar by using the mentod setWeight().
    example: $car1 -> setWeight(500);
 
-9. Get the weight of a TrainCar by using the mentods getWeight().
+9. Get the weight of a TrainCar by using the mentod getWeight().
    example: $car2 -> getWeight();
 
 10. Get the total weight of the Train by using the method totalWeight().
    example: $Train -> totalWeight();
 
-11. Find out how many TrainCars() are in the Train.
+11. Find out how many TrainCars() are in the Train by using the method totalCars().
    examle: $Train -> totalCars();
 
 12. Show the series of TrainCars in the Train by using the method showTrain().
