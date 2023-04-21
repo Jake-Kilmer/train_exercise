@@ -103,38 +103,6 @@ class Train {
         echo "/__|\n";
         echo "\n \n";
     }
-    // public function cargoCars() {
-    //     $totalCargoCars = 0;
-    //     $totalCargoCars = array_reduce($this->Cars, function ($carry, $item) {
-    //         if ($item->trainType == "Cargo") {
-    //             $carry += $item;
-    //         }
-    //         return $carry;
-    //     });
-    //     if (!$totalCargoCars) {$totalCargoCars = 0;}
-    //     echo "\n \n" . "Cargo Cars: " . $totalCargoCars . "\n \n \n";
-    // }
-    // public function passengerCars() {
-    //     $totalPassengerCars = array_reduce($this->Cars, function ($carry, $item) {
-    //         if ($item->trainType == "Passenger") {
-    //             $carry += $item;
-    //         }
-    //         return $carry;
-    //     });
-    //     if (!$totalPassengerCars) {$totalPassengerCars = 0;}
-    //     echo "\n \n" . "Passenger Cars: " . $totalPassengerCars . "\n \n \n";
-    // }
-    // public function engineCars() {
-    //     $totalEngineCars = 0;
-    //     $totalEngineCars = array_reduce($this->Cars, function ($carry, $item) {
-    //         if ($item->trainType == "Engine") {
-    //             $carry += $item;
-    //         }
-    //         return $carry;
-    //     });
-    //     if (!$totalEngineCars) {$totalEngineCars = 0;}
-    //     echo "\n \n" . "Engine Cars: " . $totalEngineCars . "\n \n \n";
-    // }
     public function totalCarsWeight($carry, $item) {
         $carry += $item -> weight;
         return $carry;
